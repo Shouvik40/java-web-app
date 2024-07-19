@@ -20,7 +20,7 @@ stages {
         steps {
             sh ''' pwd
                     whoami
-                    ls -l /home/ubuntu/
+                    ls -l /home/
                     ls -l target/
                     '''
             // sh 'scp -i /home/jenkinsuser/aws_login.pem target/hello-world.war ubuntu@13.51.206.232:/home/ubuntu/'
