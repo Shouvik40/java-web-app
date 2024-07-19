@@ -26,7 +26,7 @@ stages {
                     pwd
                     ls  -l /home/jenkinsuser
                     '''
-            sh 'scp -i /home/jenkinsuser/aws_login.pem target/hello-world.war ubuntu@13.51.206.232:/home/ubuntu/'
+            // sh 'scp -i /home/jenkinsuser/aws_login.pem target/hello-world.war ubuntu@13.51.206.232:/home/ubuntu/'
         }
     }
 }
